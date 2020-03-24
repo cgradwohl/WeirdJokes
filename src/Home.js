@@ -32,21 +32,6 @@ const Home = ({ navigation }) => {
           title="No"
         />
       </View>
-
-      <View style={{ flex: 3, alignItems: 'center', flexDirection: 'row' }}>
-        <Button
-          buttonStyle={{ backgroundColor: 'limegreen' }}
-          containerStyle={{ width: '50%' }}
-          onPress={() => navigation.navigate('Joke')}
-          title='Yes'
-        />
-        <Button
-          buttonStyle={{ backgroundColor: 'tomato' }}
-          containerStyle={{ width: '50%' }}
-          onPress={() => console.log('nah...')}
-          title="No"
-        />
-      </View>
     </SafeAreaView>
   );
 };
