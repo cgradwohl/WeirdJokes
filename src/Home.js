@@ -15,7 +15,7 @@ const Home = ({ navigation }) => {
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <View style={{ flex:3, alignItems: 'center', justifyContent: 'center' }}>
-        <Text style={{ fontSize: 22 }}>Would you like to hear a weird joke?</Text>
+        <Text style={{ fontSize: 20 }}>Would you like to hear a weird joke?</Text>
       </View>
 
       <View style={{ flex: 3, alignItems: 'center', flexDirection: 'row' }}>
