@@ -28,7 +28,7 @@ const Home = ({ navigation }) => {
         <Button
           buttonStyle={{ backgroundColor: 'tomato' }}
           containerStyle={{ width: '50%' }}
-          onPress={() => console.log('nah...')}
+          onPress={() => console.log('nah bruh...')}
           title="No"
         />
       </View>
