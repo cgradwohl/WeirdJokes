@@ -15,7 +15,22 @@ const Home = ({ navigation }) => {
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <View style={{ flex:3, alignItems: 'center', justifyContent: 'center' }}>
-        <Text style={{ fontSize: 22 }}>Would you like to hear a weird joke?</Text>
+        <Text style={{ fontSize: 24 }}>Would you like to hear a weird joke?</Text>
+      </View>
+
+      <View style={{ flex: 3, alignItems: 'center', flexDirection: 'row' }}>
+        <Button
+          buttonStyle={{ backgroundColor: 'limegreen' }}
+          containerStyle={{ width: '50%' }}
+          onPress={() => navigation.navigate('Joke')}
+          title='Yes'
+        />
+        <Button
+          buttonStyle={{ backgroundColor: 'tomato' }}
+          containerStyle={{ width: '50%' }}
+          onPress={() => console.log('nah...')}
+          title="No"
+        />
       </View>
 
       <View style={{ flex: 3, alignItems: 'center', flexDirection: 'row' }}>
